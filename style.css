@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* button:hover {
+cursor:pointer;
+}
+* img:hover {
+    cursor: pointer;
+}
+.pagehead {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8px;
+    height: 300vh;
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fa-solid {
+    scale: 0.85;
+}
+.srchbtn {
+    scale: 1.2;
+   background-color: rgb(222, 233, 233);
+   border: 1px solid rgb(222,233,233);
+   border-color: transparent;
+   height: 90%;
+   width: 130%;
+}
+#query {
+    height: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.gobutton {
+    background-color: rgb(182, 182, 218);
+    color: white;
+    font-weight: 500;
+    height: 80%;
+    border-color: transparent;
+    scale: 1.2;
+    font-size:5%;
+    width: 18px;
+    margin-top: 0px;
+    border-radius: 0px;
+  
+
+}
+.navmid button {
+    border-color: transparent;
+    background-color: white;
+    font-size: 60%;
+}
+.navmid button:hover {
+    background-color: rgb(243, 243, 243);
+    transition-duration: 0.5s;
+}
+.navright button {
+    background-color: rgb(92, 92, 146);
+    color: aliceblue;
+    font-size: xx-small;
+    padding: 5px;
+    border-radius: 4px;
+}
+.navright button:hover {
+    background-color: rgb(69, 69, 124);
+    transition-duration: 0.5s;
+}
+.headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.headline img {
+    background-color: transparent;
+    height: 70px;
+    scale: 1.1;
+}
+.colorgrn {
+    color: green;
+}
+.headlineleft{
+    line-height: 8px;
+    font-size: smaller;
+}
+.headlineright {
+    font-size: smaller;
+}
+.botnav {
+    display: flex;
+    justify-content: center;
+}
+.botnav button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: white;
+    border: none;
+    font-size: xx-small;
+}
+.botnav button:hover {
+    text-decoration-line: underline;
+}
+.main {
+    width: 70%;
+    height: 100%;
+    border-right: 1px solid gray;
+    
+}
+
+.page {
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+}
+.arc1 {
+    display: flex;
+    height:70vh;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.arccolone {
+    width: 30%;
+    margin-right: 15px;
+    border-right: 1px solid gray;
+    padding-right: 15px;
+    font-size: smaller;
+}
+.arccoltwo {
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    font-size: smaller;
+}
+.arccoltwo img {
+    width: 100%;
+    height: 100%;
+    
+}
+.arccolthree {
+    width: 28%;
+    font-size: smaller;
+}
+.small {
+    font-size: xx-small;
+}
+.exp {
+    position: absolute;
+    top: 3px;
+}
+.arc2 {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+.subarcleft {
+    width: 50%;
+    padding-right: 15px;
+    border-right: 1px solid gray;
+    font-size: smaller;
+}
+.subarcright {
+    width: 47%;
+    padding-left: 10px;
+    font-size: smaller;
+    
+}
+.live {
+    color: rgb(214, 33, 33);
+}
+.upd {
+    font-size: x-small;
+}
+.upd button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: xx-small;
+}
+.subarcright p {
+    font-size: xx-small;
+}
+.arc3 {
+    display: flex;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.satl {
+    width: 35%;
+    margin-right: 5px;
+}
+.satr {
+    width: 65%;
+}
+.satr img {
+    width: 100%;
+    height: 97%;
+}
+.moveme {
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+    font-size: xx-small;
+    color: gray;
+    margin-right: 3px;
+}
+.satl {
+    display: flex;
+    flex-direction: column;
+}
+.satlt {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.tw {
+    font-size: xx-small;
+    color: gray;
+}
+.satlb {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.ew {
+    font-size: xx-small;
+    color: gray;
+}
+.arc4 {
+    display: flex;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+}
+.safl {
+    width: 35%;
+    margin-right: 5px;
+}
+.safr {
+    width: 65%;
+}
+.safr img {
+    width: 100%;
+    height: 97%;
+}
+
+.safl {
+    display: flex;
+    flex-direction: column;
+}
+.saflt {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.fr {
+    font-size: xx-small;
+    color: gray;
+}
+.saflb {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.fv {
+    font-size: xx-small;
+    color: gray;
+}
+.col {
+    width: 28%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.tennis {
+    font-size: xx-small;
+    color: gray;
+    height: 40vh;
+    position: relative;
+}
+.tennis img {
+    height: 80%;
+    width: 100%;
+}
+.tennis p {
+    position: absolute;
+    right: 0px;
+    bottom: 10%;
+}
+.tnsarc {
+    font-size: smaller;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.sx {
+    font-size: x-small;
+    color: gray;
+}
+.colft {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    width: 50%;
+    margin-left: 5%;
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+}
+.twocols {
+    margin-top: 8px;
+    display: flex;
+    padding-bottom: 45px;
+    border-bottom: 1px solid gray;
+}
+.colrt {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    width: 50%;
+    margin-left: 5%;
+    
+}
+.lrgr {
+    font-size: small;
+}
+.colrt img {
+    width: 100%;
+    height: 110%;
+}
+.colft img {
+    width: 100%;
+    height: 110%;
+}
+.headlineright {
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+    font-size: smaller;
+    overflow: hidden;
+    position: relative;
+}
+@media (max-width: 480px) {
+.topnav {
+    height: 0px;
+}
+.headlineleft {
+    width: 0px;
+    visibility: hidden;
+}
+.headlineright {
+    width: 0px;
+    visibility: hidden;
+}
+.headlinemid {
+    width: 90%;
+}
+.headlinemid img {
+    width: 80%;
+}
+.botnav {
+    visibility: hidden;
+    width: 0px;
+}
+}
